@@ -1,0 +1,47 @@
+
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding-bottom: 2%;
+}
+
+.content {
+    width: 50%;
+    height: 50%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 0;
+    background-color: rgb(240, 244, 248);
+    position: fixed;
+}
+
+.generatepassword {
+    width: 90%;
+    padding: 4%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    /* left: 2%; */
+}
+
+#password {
+    width: 100%;
+    border-style: dashed;
+}
+
+#generate {
+    background-color: rgb(216, 12, 12);
+    padding: 1%;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+#copy {
+    background-color: rgb(224, 224, 224);
+    padding: 1%;
+}
