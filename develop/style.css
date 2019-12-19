@@ -13,7 +13,7 @@ h2 {
 }
 
 .content {
-    width: 50%;
+    width: 40%;
     height: 50%;
     padding-top: 1%;
     padding-left: 1%;
@@ -33,15 +33,43 @@ h2 {
 #password {
     width: 100%;
     border-style: dashed;
+    height: 90px;
+    text-align: center;
 }
 
 #generate {
     background-color: rgb(216, 12, 12);
     padding: 1%;
     border-top: 1px solid rgb(224, 224, 224);
+    border-radius: 20px;
 }
 
 #copy {
     background-color: rgb(224, 224, 224);
     padding: 1%;
+    border-radius: 20px;
+    
+}
+
+@media only screen and (max-height: 700px) {
+    /* .generatepassword {
+        height: 20px;
+        
+    }         */
+
+    /* .content {
+        height: 40%;
+    } */
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    #password {
+        height: 50px;
+    }
 }
